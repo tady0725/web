@@ -10,7 +10,7 @@ header('Access-Control-Allow-Origin: *');
 $DB_HOST = 'localhost';
 $DB_USER = 'root';
 $DB_PASSWORD = '';
-$DB_NAME = 'ai_center';
+$DB_NAME = '';
 
 $conn = new mysqli($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
 
